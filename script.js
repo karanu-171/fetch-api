@@ -10,7 +10,7 @@
             <td><img src="${values.image}"/></td>
         </tr>`;
     });
-    document.getElementById("table_body").innerHTML = tableData
+    document.querySelector(".table_body").innerHTML = tableData
  }).catch((err)=>{
     console.log(err)
  })
